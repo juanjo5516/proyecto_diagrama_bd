@@ -21,10 +21,31 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nit" id="1E934F37-66B2-5FA9-D0D6-036ED1D97640">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:01:57 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C4FED732-0866-D577-489B-E66C7EC7FFBC">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:02:28 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="telefono" id="16886B96-03D7-8C15-AF07-1E01FA212CCB">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 14:50:02 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,6 +56,7 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 14:50:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,17 +73,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="persona_id" id="C71D28DD-68CF-2650-FBCB-BA6E413BBBC3">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 01:52:18 UTC</createdTime>
-<generatorID>96D3C909-E25D-E9A4-8DB2-80509F057210</generatorID>
-<ownerDesignName>diagrama_er</ownerDesignName>
-<referedAttribute>E53CDE98-DB8C-B168-870A-6BAFF378ACB2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="created_at" id="2B710BBD-78DE-9016-9FFD-093CBE02E801">
 <createdBy>dhernandez</createdBy>

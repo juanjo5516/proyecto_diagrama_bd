@@ -92,17 +92,6 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="persona_id1" id="E433D003-FBEB-1F44-045E-A8C7C54EB79E">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 02:25:21 UTC</createdTime>
-<generatorID>841A7938-5194-7ECA-1B17-02D5FF036E60</generatorID>
-<ownerDesignName>diagrama_er</ownerDesignName>
-<referedAttribute>E53CDE98-DB8C-B168-870A-6BAFF378ACB2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C457FA77-0D8F-AEF8-6745-0816CCB293C5" name="proveedores PK">

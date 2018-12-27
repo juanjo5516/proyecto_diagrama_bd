@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7BB208B-4F84-8C24-293F-A68C9CC1BA65" name="sedes">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:14:46 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B27761F6-26A1-ACA9-5237-67E70D6A68B9">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:15:12 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sede" id="4FD33E21-50F3-161F-8779-55F0E0485ED1">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:15:46 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento" id="ACDB615D-E414-0F28-F932-2CECF9E87A63">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:16:05 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="BB87B120-A459-BFDD-2EC9-2168292FBCD1">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:17:00 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="D7F6F003-9D30-7BB3-EF4F-B0C9B61187DC">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:18:51 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="9A8CBA5C-07D9-C419-6FEA-DEB07CE0F68E">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:19:35 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="1C8F118D-2B05-A09C-260C-DD056E1053DF">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:19:53 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D07277A-8985-5917-0E2C-C90191C3FFB2" name="sedes PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:15:36 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B27761F6-26A1-ACA9-5237-67E70D6A68B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

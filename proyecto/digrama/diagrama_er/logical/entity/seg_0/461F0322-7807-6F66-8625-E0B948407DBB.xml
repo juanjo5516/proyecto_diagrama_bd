@@ -41,17 +41,6 @@
 <dataTypeSize>25</dataTypeSize>
 <ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="afiliacion_igss" id="88B52CE3-102A-4E47-7E43-6F320EF978F1">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-24 23:32:45 UTC</createdTime>
-<ownerDesignName>diagrama_er</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>25,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nombre1" id="7E0BACA8-7B04-B949-D258-27FC5BD9368A">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-24 23:33:37 UTC</createdTime>

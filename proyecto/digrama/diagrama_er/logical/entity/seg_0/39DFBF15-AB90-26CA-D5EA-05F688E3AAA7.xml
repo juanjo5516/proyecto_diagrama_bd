@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39DFBF15-AB90-26CA-D5EA-05F688E3AAA7" name="pacientes">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:31:07 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="AADCDC7C-8E04-6110-D66B-D9C58CF44DBF">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:31:35 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui" id="043555C9-7CA5-0AEB-F4AE-EAF7592F0668">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 19:02:33 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="2A6AA133-1134-356A-BA17-97531B626895">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:54:13 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="01220FC4-3152-30C6-E6D4-9753AAFF733D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:55:24 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="296A8A62-DCF5-3291-CFDE-8B988024F89B">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:58:58 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afiliacion_IGSS" id="6BC23CAC-B390-5911-88FF-F1DBC8314EF8">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:59:11 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="B0BFDA2A-280D-F2C8-0DF1-5ADD349E634C">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:49:44 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seguro" id="A9FD1E62-1AEC-062F-34EF-8E1FDEB9FA12">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:52:23 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aseguradora_id" id="E3D05431-797A-849D-2131-1922EC897AFC">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:59:10 UTC</createdTime>
+<generatorID>1658FB38-F93C-3545-78A3-BDFEF1BD196D</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>6D8013A5-010D-8CFB-0BDD-79F70AE3D941</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="6A76CE5E-6456-27DA-FB05-4DF5214AF953">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:16:15 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="974AEFA8-CF48-8A6B-5CE5-B1959E6AC0AE">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:16:30 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="4B31A3C7-EB68-66A1-13DA-7CD95D5450F4">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:17:30 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7E99924-59E8-0803-B1FC-DF29C2A8F4C3" name="pacientes PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 18:32:35 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AADCDC7C-8E04-6110-D66B-D9C58CF44DBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

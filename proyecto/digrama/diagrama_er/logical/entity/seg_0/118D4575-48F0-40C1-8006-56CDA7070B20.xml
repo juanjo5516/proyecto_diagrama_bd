@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="118D4575-48F0-40C1-8006-56CDA7070B20" name="aseguradoras">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:55:27 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6D8013A5-010D-8CFB-0BDD-79F70AE3D941">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:55:47 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aseguradora" id="1CEBECAF-F8FD-421A-8BFA-CC887EBFE6D3">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:56:01 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="023CFF80-6A71-0DD0-BD3D-286C1298FDB7">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:56:27 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="5E36B45B-5253-D7C7-082E-D257FC08876A">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:56:52 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="DAF0F374-2F46-AB6B-5DF9-B24FE774D662">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:17:57 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="BE85D315-AC45-CACA-04E2-90A459FF139F">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:18:25 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="B821E6D2-F328-2DB8-6E41-B73A8413A4D5">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:20:21 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="343D3886-F183-ECF0-62C1-AE5D662C02B2" name="aseguradoras PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 20:56:47 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D8013A5-010D-8CFB-0BDD-79F70AE3D941</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

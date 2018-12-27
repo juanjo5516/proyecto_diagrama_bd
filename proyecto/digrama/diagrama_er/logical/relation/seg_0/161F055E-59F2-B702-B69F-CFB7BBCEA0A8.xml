@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_familiares_parentescos" directorySegmentName="seg_0" id="161F055E-59F2-B702-B69F-CFB7BBCEA0A8">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 01:46:14 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<sourcePk>699D6748-F053-D408-911C-B874226C3553</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F08B6140-27C0-AEF1-8D6E-C9DBCB232B8C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A0C3CBCB-5DC2-4D8D-944C-006D16FB196B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_categorias_productos" directorySegmentName="seg_0" id="AF8DFF9D-B008-9E6E-EE5E-9F919DF2CD50">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:17:07 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<sourcePk>08508620-2B9B-5A9F-54CF-83098602B494</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEFE8112-E1A0-7E3B-4D95-46FA0EFD2297</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CEE9FCE-2EE6-6B14-336F-E1D3562DB9E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

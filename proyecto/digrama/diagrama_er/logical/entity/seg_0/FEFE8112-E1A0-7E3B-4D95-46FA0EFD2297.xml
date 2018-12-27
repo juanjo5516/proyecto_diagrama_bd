@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEFE8112-E1A0-7E3B-4D95-46FA0EFD2297" name="categorias">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:13:47 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="DB86A50E-EB7B-335D-3DAE-3C733E737E12">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:14:15 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="B39EEBA0-C755-3B82-F6D9-C4C80DC3804C">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:14:26 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="B4EF21ED-BAE9-FD9F-2163-C7CA64529F85">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:14:40 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="EA4A441C-BE58-21E0-BE9D-2DF99EE4332F">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:14:54 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="E9E97453-44DF-17BB-EF45-F1ECE48D3E29">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:15:03 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08508620-2B9B-5A9F-54CF-83098602B494" name="categorias PK">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:14:25 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB86A50E-EB7B-335D-3DAE-3C733E737E12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

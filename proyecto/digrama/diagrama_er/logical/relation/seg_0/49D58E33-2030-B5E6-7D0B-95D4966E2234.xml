@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_carreras_estudios" directorySegmentName="seg_0" id="49D58E33-2030-B5E6-7D0B-95D4966E2234">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 01:57:19 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<sourcePk>9D6424DF-A174-4906-28FC-224ED618044A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEEB81A3-A2CA-E639-0B67-B88EBAAD8564</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E00CF6D9-F0DE-66D4-7242-BF623B0A892C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

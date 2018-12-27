@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E76DD4AE-F2C3-BE65-58B5-B24843CE2BCA" name="estado_civil">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:43:31 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="43E8D2EF-B258-B753-AC3D-396E159E59B9">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:43:42 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_civil" id="6D3AFA55-2BD1-82D6-360C-04D11FC46784">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:43:55 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="B6C276F6-7165-0108-D482-2CDB8CAA623B">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:44:17 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="7F11C3BB-9337-DBDB-EC7D-1988F7BABC0C">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:44:31 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="C9017691-27B5-5E73-E6D3-C50878B04F61">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:44:49 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A2E74CD-C57F-022D-6831-8D971803EA3C" name="estado_civil PK">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:43:51 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43E8D2EF-B258-B753-AC3D-396E159E59B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

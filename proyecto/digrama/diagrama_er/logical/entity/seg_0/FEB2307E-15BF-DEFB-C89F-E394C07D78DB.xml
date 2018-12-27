@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEB2307E-15BF-DEFB-C89F-E394C07D78DB" name="ventas">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7CF25F4C-F96B-8AC6-7660-2AF1352F8FCE">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="serie_factura" id="3301BDD8-9E51-82A1-0936-719FF8491FAF">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_factura" id="EF21F59B-1BA9-2FBB-F320-097C1BFD495E">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_factura" id="F6D8CBD3-F8C0-74AE-3D8F-3BD507FE0CEE">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="C00E8F2C-3B5F-DC18-A362-BEAB8E7D34D9">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente_id" id="BFE3A531-D711-040D-5AB2-E2FC78BA03DF">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 05:01:52 UTC</createdTime>
+<generatorID>BE5F5A05-B76A-8867-4B51-576B2EFA8EB2</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>6BF5F6F7-BBEB-3704-1F13-BB91EF6BC550</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="forma_pago_id" id="DD6E013E-28E0-1245-D96F-1C611995EFD5">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:54:53 UTC</createdTime>
+<generatorID>12B61F5E-67BF-EE2B-366F-86895E0EB2B6</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>A426384F-AB90-1003-1A69-0E69FB5064BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="687429CD-90C5-B266-0A40-3065139EA873" name="compras PK">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CF25F4C-F96B-8AC6-7660-2AF1352F8FCE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

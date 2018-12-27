@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_familiares_personas" directorySegmentName="seg_0" id="BD9C5782-AF34-B707-954E-83EBA841E9B8">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 01:45:36 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<sourcePk>2E7251ED-8BB6-4B71-F712-27C5C2D1FCCB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>461F0322-7807-6F66-8625-E0B948407DBB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A0C3CBCB-5DC2-4D8D-944C-006D16FB196B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

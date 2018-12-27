@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC734A10-DDC2-B1AA-46CC-C86220E86741" name="residencias">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:13:56 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6E51A099-13AB-4247-A847-6EA96482E9EE">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:29:12 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="5638619F-494A-0D0F-60A5-B5963D62FEB7">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:30:08 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zona_id" id="2E0CED93-D058-43BF-D33D-989D58E907AB">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:33:45 UTC</createdTime>
+<generatorID>94362FC6-8B13-5403-EA52-B694100EE5A7</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>AD9D40A5-8F9F-94C8-6EA9-BDE08D0C5122</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento_id" id="7218B31C-EE79-F6ED-F501-B881107AE83F">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:35:11 UTC</createdTime>
+<generatorID>BF984A85-E2EA-77A2-5233-9150586733F8</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>3564AC32-75DB-33D7-508F-174CE59F615E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="municipio_id" id="34B3FC64-CDFF-E6DC-26D3-5D3F53C02322">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:35:25 UTC</createdTime>
+<generatorID>7F87F878-E41D-1E66-79AB-032A6D6BC5D0</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>6814EF76-311A-DD0E-A5A9-C3A132F0C898</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="E3D58C74-4D8B-EE63-86D1-C2573841D3D6">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:35:59 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="41869439-E729-8AA8-A6FC-EB534CAAAB2D">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:36:12 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="F7348F69-CC19-A343-F973-390D7680406B">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:36:21 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="87EBB78D-508C-1FD3-8B46-7C49560275E6">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 02:01:07 UTC</createdTime>
+<generatorID>A2966C26-6FA5-202E-A662-CF0287717AB1</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>E53CDE98-DB8C-B168-870A-6BAFF378ACB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43D8D7D1-BBC4-7DC8-B8A8-3BD9DB49E894" name="residencias PK">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:29:25 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E51A099-13AB-4247-A847-6EA96482E9EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

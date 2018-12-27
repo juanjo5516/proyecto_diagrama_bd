@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE74F918-966C-F53D-D429-84A1D41C5106" name="empleados">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:54:42 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="581A1963-6FF6-8A9A-9269-59BECA38621F">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:54:50 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carne" id="6E90AD95-99D8-B879-97ED-A0CA25C24243">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:55:19 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="0449F5CA-E2C4-A703-71F9-02D39BDF242E">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:55:45 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_egreso" id="2EB336FB-8F85-AFEB-4188-964A6246216C">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:56:09 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jefe_id" id="D7B53EFD-57D9-D8D8-2710-649F8E6CFC0B">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:09:37 UTC</createdTime>
+<generatorID>10F9AD41-E44D-3E83-ABF4-89E57C8888ED</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>581A1963-6FF6-8A9A-9269-59BECA38621F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="depto_id" id="9AC737AC-EF5E-DE7A-E697-D664DC62E676">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:12:45 UTC</createdTime>
+<generatorID>334D941B-3DD4-C2C3-439D-B542A04182F3</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>C72271FC-1542-2409-EE4D-13C24EC035E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puesto_id" id="9BACA228-CFB1-F701-08E8-13F171094AF0">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:12:20 UTC</createdTime>
+<generatorID>62E6C1B3-B213-42CA-34D8-3F49B7AA269B</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>F8C660D8-804E-C247-D0C5-7D8AF1614E0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="persona_id" id="1975680D-CAB9-71A8-5B18-FCF087C934F7">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:11:33 UTC</createdTime>
+<generatorID>3FD205E6-2012-C159-4C49-474CF5D19476</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>E53CDE98-DB8C-B168-870A-6BAFF378ACB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="BEDEC486-90D0-E0EC-B88A-55739C182F83">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:22:42 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="4DD2A838-D8B9-CBBF-BBA2-F0460795CBBD">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:22:55 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="6114A633-4363-24A6-EAFD-485FC1922D11">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:23:05 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7EC2BF76-3300-6E47-9CBB-4283D0BA5695" name="empleados PK">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:55:15 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>581A1963-6FF6-8A9A-9269-59BECA38621F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_capacitaciones_personas" directorySegmentName="seg_0" id="7189498A-3F05-8230-07A0-A15DC9694763">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 02:21:05 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<sourcePk>7EC2BF76-3300-6E47-9CBB-4283D0BA5695</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>461F0322-7807-6F66-8625-E0B948407DBB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91A60536-1C87-A533-418C-C3CBE5B42442</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

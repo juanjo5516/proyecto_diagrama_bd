@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB901C0B-81A4-3EEA-EF31-A966828EF279" name="inventario">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:20:46 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E4C615D0-66C3-A156-3B98-4A0D460E349D">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:20:55 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="existencia" id="A34712F6-361D-DE4A-1263-875A99B76E52">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:21:26 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created_at" id="30AD6435-7982-A1E7-7AF2-E9F9ED5CD9C0">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:22:11 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated_at" id="B7A3BEE8-02CA-1C37-B6C7-DAD030BD55FE">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:22:27 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted_at" id="CFEA8C7E-094A-4E06-32E6-D37C20029E97">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:22:38 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria_id" id="0AAB1650-78E5-7929-C437-A91EBEC4FAD6">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:23:23 UTC</createdTime>
+<generatorID>5C205D2F-865A-A817-37FB-6DCCB9C6A5E7</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>DB86A50E-EB7B-335D-3DAE-3C733E737E12</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="producto_id" id="8E622F23-1BB4-5E81-EB94-3B37AA375F96">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:24:03 UTC</createdTime>
+<generatorID>3ED040C5-E061-D058-FA6A-97E9952D9CF5</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referedAttribute>536F6F84-5BB6-7B84-254A-E3B99CA6B7B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F4F8669-E742-BB60-E3D6-8FB181D56A42" name="inventario PK">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:21:24 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4C615D0-66C3-A156-3B98-4A0D460E349D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_nacionalidades_personas" directorySegmentName="seg_0" id="73DD20F6-3899-8657-4451-929B3D6ECF63">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-24 23:49:57 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<sourcePk>A2E69BEF-BD43-B672-7ECB-C1C543F2C34D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B48C9BB9-933E-3510-E02D-D08581A722B6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>461F0322-7807-6F66-8625-E0B948407DBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

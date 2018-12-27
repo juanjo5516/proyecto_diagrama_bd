@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_personas_proveedores" directorySegmentName="seg_0" id="96D3C909-E25D-E9A4-8DB2-80509F057210">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 01:52:18 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<sourcePk>2E7251ED-8BB6-4B71-F712-27C5C2D1FCCB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>461F0322-7807-6F66-8625-E0B948407DBB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E9D61DE-A00D-68BE-9915-1B5FE3473783</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_compras_forma_pagos" directorySegmentName="seg_0" id="CFB94643-206C-7922-89E8-D2CC0EE1E69F">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:38:37 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<sourcePk>FB6DE323-6CAD-BBFD-18E6-8CEA71ADE0A8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9105DF2A-D397-88B5-997D-8199BDF46B22</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B97BF4B1-CE0B-302C-701A-FCDFCC9B4D6F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

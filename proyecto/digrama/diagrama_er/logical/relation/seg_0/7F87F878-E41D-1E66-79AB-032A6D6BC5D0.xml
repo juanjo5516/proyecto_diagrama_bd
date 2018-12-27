@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_municipios_residencias" directorySegmentName="seg_0" id="7F87F878-E41D-1E66-79AB-032A6D6BC5D0">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-25 00:35:25 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+</engineerTo>
+<sourcePk>CD0AE8A2-0C47-E633-6563-78DA6ADCA351</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95F3194A-BE17-0B3A-7CAD-83E615C49A40</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC734A10-DDC2-B1AA-46CC-C86220E86741</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

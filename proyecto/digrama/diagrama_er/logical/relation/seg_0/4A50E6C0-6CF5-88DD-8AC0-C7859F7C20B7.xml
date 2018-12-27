@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_cuenta_por_pagar_proveedores" directorySegmentName="seg_0" id="4A50E6C0-6CF5-88DD-8AC0-C7859F7C20B7">
+<createdBy>dhernandez</createdBy>
+<createdTime>2018-11-28 04:47:50 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<sourcePk>C8C2DC27-9027-F202-D838-EAAD8374C223</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E9D61DE-A00D-68BE-9915-1B5FE3473783</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16F0CB68-2CC8-E54C-C770-D562A2834A08</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

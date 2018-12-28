@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3B09BDD-DC44-E610-8C59-19BB80E94B89" name="zonas">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>02E3E270-FC83-0F24-C91E-1E2069D308F7</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="977831FE-7146-B863-BC30-D9FDA41A1E28">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>AD9D40A5-8F9F-94C8-6EA9-BDE08D0C5122</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zona" id="49B5E3B7-E5C7-C5CD-9C74-DCFA49193693">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>50497998-5DF2-3EAD-ABD3-A84B20D2F9DF</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="36EAAEFA-6221-FFBE-BC3F-44729A0D6A64">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>38D3E069-F168-CB3D-8376-4432C1566AE3</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="2B39DAA6-D562-0746-EFEC-1D6F34D91BF0">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>1EF7B0A9-9EA9-FBE2-6EDC-83E1E8CDAFC4</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="ACAF48FC-4CAE-E849-26E2-C23B464FC4A7">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>CC30ABC9-CF0A-91C3-7D41-F017B483E199</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9EFE6D6-25F0-2DCB-959B-BC17FEB9D76D" name="zonas_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>051DF87F-241D-3C29-3426-3732A2A2DAE4</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="977831FE-7146-B863-BC30-D9FDA41A1E28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

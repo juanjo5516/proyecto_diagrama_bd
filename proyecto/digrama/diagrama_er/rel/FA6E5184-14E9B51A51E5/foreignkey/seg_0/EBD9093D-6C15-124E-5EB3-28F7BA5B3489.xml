@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EBD9093D-6C15-124E-5EB3-28F7BA5B3489" containerWithKeyObject="5C18E8C9-5863-C69E-B596-9B7AE47E6385" localFKIndex="A1A56A14-A558-3401-8B63-E7412278266D" name="ventas_forma_pagos_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>12B61F5E-67BF-EE2B-366F-86895E0EB2B6</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<referredTableLongName>forma_pagos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C5B59DF-FC64-AA87-F3CA-885F8D57E151</referredTableID>
+<keyObject>6973792F-4B2E-487D-2E4F-EB7626F641F4</keyObject>
+<referredKeyID>6973792F-4B2E-487D-2E4F-EB7626F641F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

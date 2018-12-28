@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C18E8C9-5863-C69E-B596-9B7AE47E6385" name="ventas">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>FEB2307E-15BF-DEFB-C89F-E394C07D78DB</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5B5E80AB-EEC6-B44C-21F7-2CDE439926B4">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>7CF25F4C-F96B-8AC6-7660-2AF1352F8FCE</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="serie_factura" id="7BB64709-BAA4-CDF4-148E-EAA18FC2938A">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>3301BDD8-9E51-82A1-0936-719FF8491FAF</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_factura" id="D6C7D3EC-D032-595C-02AC-2CE6267E7050">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>EF21F59B-1BA9-2FBB-F320-097C1BFD495E</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_factura" id="C6FC837D-8973-A699-4543-62E29D89A39C">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>F6D8CBD3-F8C0-74AE-3D8F-3BD507FE0CEE</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="FB312915-352A-19AF-C230-FFB92918D6B5">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>C00E8F2C-3B5F-DC18-A362-BEAB8E7D34D9</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clientes_id" id="E9FB3BFE-6F5A-095D-C959-C2CAD8C6506B">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>BFE3A531-D711-040D-5AB2-E2FC78BA03DF</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F698A82-F853-5DB2-7BBF-67920270649A" referredColumn="E84F8E16-97D7-AF33-224D-8A7C29113517"/>
+</associations>
+</Column>
+<Column name="forma_pagos_id" id="63653F29-1D9C-33FB-7652-8551EC620F2C">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>DD6E013E-28E0-1245-D96F-1C611995EFD5</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBD9093D-6C15-124E-5EB3-28F7BA5B3489" referredColumn="EBE4F960-1375-611C-A5DA-12478A259334"/>
+</associations>
+</Column>
+<Column name="created_at" id="304BB31F-18BF-6594-2419-5B613716379D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>8790DCA3-76DA-71DF-EEE7-EA34BE77C6E2</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="2DC15870-3C2C-370E-9076-ED86F7F03856">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>1223C3E1-9DB9-DC15-3955-F8F96C7ED7F7</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="5086CFFE-1DED-052F-8FF5-15D92AA67E23">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>D3FB9BD0-4000-A083-55EC-344F0334EBC0</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A96C09B0-5827-6D13-D5BE-0CA176AF7AFC" name="ventas_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>687429CD-90C5-B266-0A40-3065139EA873</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5E80AB-EEC6-B44C-21F7-2CDE439926B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3620C243-E82F-09F5-7C4E-8FF628AAE232" name="ventas_clientes_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>BE5F5A05-B76A-8867-4B51-576B2EFA8EB2</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9FB3BFE-6F5A-095D-C959-C2CAD8C6506B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1A56A14-A558-3401-8B63-E7412278266D" name="ventas_forma_pagos_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>12B61F5E-67BF-EE2B-366F-86895E0EB2B6</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63653F29-1D9C-33FB-7652-8551EC620F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

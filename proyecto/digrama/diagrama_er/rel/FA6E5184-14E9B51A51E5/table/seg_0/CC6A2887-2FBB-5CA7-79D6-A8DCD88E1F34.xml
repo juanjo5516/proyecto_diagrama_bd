@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC6A2887-2FBB-5CA7-79D6-A8DCD88E1F34" name="medicos">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 02:45:20 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AA74707F-C5F6-175C-C381-248468F13209">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 02:47:53 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad" id="BF40D34C-22D0-DC03-3983-B37AF96A3144">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 02:58:53 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="9E648ED1-B863-AF41-C856-BDDC5C45E6BC">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:27:46 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="FC2F6C51-58CE-2CD6-DF13-8C4A917122D1">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:28:00 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="0C90F643-6629-80B6-09DB-3CFAB62C4510">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:28:13 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personas_id" id="B50E5AA9-AA9B-4C8D-3548-FED158D3CD86">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:36:38 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCFB2B8B-E25B-94D3-D4CF-263E7C17F694" referredColumn="D16030EB-8DAE-AD60-AA12-503783A6926F"/>
+</associations>
+</Column>
+<Column name="salario" id="F92CE543-6E15-C420-4E0A-1FDC94D076D2">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:37:55 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="464558F6-4F07-F57E-6FB1-457FA5E389C2">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:38:33 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sedes_id" id="B870E7E4-31CE-FA7D-C179-6EC8C14F14A0">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:42:44 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBA58DD7-4B32-C647-CB87-B6EE67130A39" referredColumn="687A1855-B1A4-819D-5A45-B6CCCF77AC9C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="926A1F22-69B6-7CEC-E7A7-2380A51F77A0" name="medicos_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:36:03 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA74707F-C5F6-175C-C381-248468F13209"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="645418A2-144A-EDD2-8692-AAE1D4AF7B94" name="medicos_personas_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:36:38 UTC</createdTime>
+<generatorID>2E7251ED-8BB6-4B71-F712-27C5C2D1FCCB</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B50E5AA9-AA9B-4C8D-3548-FED158D3CD86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A8C7B5A-54BD-5A4B-AB2D-141C05D6181D" name="medicos_sedes_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:42:44 UTC</createdTime>
+<generatorID>4D07277A-8985-5917-0E2C-C90191C3FFB2</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B870E7E4-31CE-FA7D-C179-6EC8C14F14A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="485F2656-30E4-E6D9-F7F0-D69004D6183E" name="residencias">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>AC734A10-DDC2-B1AA-46CC-C86220E86741</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6A890219-2CB7-4939-97E6-803170AB9AD7">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>6E51A099-13AB-4247-A847-6EA96482E9EE</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="E6F57CB6-0329-A7B4-D9EF-727913CE981D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>5638619F-494A-0D0F-60A5-B5963D62FEB7</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zonas_id" id="38BA53CD-4AF3-85C5-621A-70EEE629D57D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>2E0CED93-D058-43BF-D33D-989D58E907AB</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F70D5CE3-9137-AABB-B59C-933570D560B0" referredColumn="977831FE-7146-B863-BC30-D9FDA41A1E28"/>
+</associations>
+</Column>
+<Column name="departamentos_id" id="DB114009-FF10-C5B4-BBDF-31667776AD77">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>7218B31C-EE79-F6ED-F501-B881107AE83F</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5BA5D61-12B4-9F80-7F03-5F0DAE265FBC" referredColumn="231CBFB0-AE6F-24D1-5A37-06ADF345979D"/>
+</associations>
+</Column>
+<Column name="municipios_id" id="341A9D89-183E-C76D-8148-0EB2F6FF92E4">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>34B3FC64-CDFF-E6DC-26D3-5D3F53C02322</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C28B66A0-0F85-DB30-8443-CD8E1B0E196D" referredColumn="C89F5B55-22B4-C72E-9746-DB3689EBFF69"/>
+</associations>
+</Column>
+<Column name="created_at" id="8FF250E4-FD93-B03F-4568-89768B45483D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>E3D58C74-4D8B-EE63-86D1-C2573841D3D6</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="56368DA3-7E72-F83C-B088-9833304DCB11">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>41869439-E729-8AA8-A6FC-EB534CAAAB2D</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="36411750-1432-EBE4-DEA1-7C7B2471354C">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>F7348F69-CC19-A343-F973-390D7680406B</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personas_id" id="67B510EF-34D4-946D-0C9F-8E79BA871EBD">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>87EBB78D-508C-1FD3-8B46-7C49560275E6</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55EF1264-02FA-0540-1DE9-3494A0244237" referredColumn="D16030EB-8DAE-AD60-AA12-503783A6926F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EB7972B-DFD9-C0BC-1BA8-EFD9AC6984EA" name="residencias_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>43D8D7D1-BBC4-7DC8-B8A8-3BD9DB49E894</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A890219-2CB7-4939-97E6-803170AB9AD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A030269D-8C7A-E389-9615-97C68AEFD67F" name="residencias_departamentos_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>BF984A85-E2EA-77A2-5233-9150586733F8</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB114009-FF10-C5B4-BBDF-31667776AD77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F874BC3-BDE2-7DC9-1D8E-B8ECA2498D25" name="residencias_municipios_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>7F87F878-E41D-1E66-79AB-032A6D6BC5D0</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="341A9D89-183E-C76D-8148-0EB2F6FF92E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4976D7C-A1D4-D96B-284D-7C6A1BF50E9B" name="residencias_personas_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>A2966C26-6FA5-202E-A662-CF0287717AB1</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B510EF-34D4-946D-0C9F-8E79BA871EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DA2E0B7-87B6-B2AC-A9E2-CD87F5C12E42" name="residencias_zonas_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>94362FC6-8B13-5403-EA52-B694100EE5A7</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38BA53CD-4AF3-85C5-621A-70EEE629D57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

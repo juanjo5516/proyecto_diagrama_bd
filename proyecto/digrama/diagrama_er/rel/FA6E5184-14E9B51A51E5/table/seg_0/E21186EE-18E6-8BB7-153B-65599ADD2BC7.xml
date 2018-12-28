@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E21186EE-18E6-8BB7-153B-65599ADD2BC7" name="pacientes">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>39DFBF15-AB90-26CA-D5EA-05F688E3AAA7</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8C7F1F7B-E4AC-8D54-78F6-3DB7807CC710">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>AADCDC7C-8E04-6110-D66B-D9C58CF44DBF</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="afiliacion_IGSS" id="51C24695-29E0-B501-3457-7EB361C62D8B">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>6BC23CAC-B390-5911-88FF-F1DBC8314EF8</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seguro" id="6C371B70-48D0-A7B5-1960-4D8B3440FF1C">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>A9FD1E62-1AEC-062F-34EF-8E1FDEB9FA12</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aseguradoras_id" id="DE79CE20-1E9C-6311-FE4D-5C00FE57E725">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>E3D05431-797A-849D-2131-1922EC897AFC</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACD5B34C-1107-FF4C-9DD2-0F67CC6D5245" referredColumn="35A76DF8-FB67-07C7-5614-D0A3B5B6D2A7"/>
+</associations>
+</Column>
+<Column name="created_at" id="FBDE7B63-9420-6A61-ED13-6AFB050E6C37">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>6A76CE5E-6456-27DA-FB05-4DF5214AF953</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="B89FFF50-05D4-EC88-1007-99F4758A892D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>974AEFA8-CF48-8A6B-5CE5-B1959E6AC0AE</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="803C9334-9E35-12E8-D076-ADA8B56B9B19">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>4B31A3C7-EB68-66A1-13DA-7CD95D5450F4</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="personas_id" id="C3A8913B-92AA-91B5-802B-4BB68730987E">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 02:43:55 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="941C995F-796F-E9BB-F0F7-A5ABD3B23989" referredColumn="D16030EB-8DAE-AD60-AA12-503783A6926F"/>
+</associations>
+</Column>
+<Column name="sedes_id" id="44F5328D-0102-A209-9132-3413B12299A8">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:44:02 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82A0D4E-FA47-1B86-9A79-FF92C3FF4149" referredColumn="687A1855-B1A4-819D-5A45-B6CCCF77AC9C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E36A92B-0200-94EA-E539-1B3AAC8FD207" name="pacientes_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>E7E99924-59E8-0803-B1FC-DF29C2A8F4C3</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C7F1F7B-E4AC-8D54-78F6-3DB7807CC710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98AB274C-1320-8887-1473-4D8CEAF19207" name="pacientes_aseguradoras_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>1658FB38-F93C-3545-78A3-BDFEF1BD196D</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE79CE20-1E9C-6311-FE4D-5C00FE57E725"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FF6C48E-FCE2-1289-67CB-54B898EC4FD9" name="pacientes_personas_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 02:43:55 UTC</createdTime>
+<generatorID>2E7251ED-8BB6-4B71-F712-27C5C2D1FCCB</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3A8913B-92AA-91B5-802B-4BB68730987E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50928967-E3A4-0D03-E661-7F6518213433" name="pacientes_sedes_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:44:02 UTC</createdTime>
+<generatorID>4D07277A-8985-5917-0E2C-C90191C3FFB2</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F5328D-0102-A209-9132-3413B12299A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

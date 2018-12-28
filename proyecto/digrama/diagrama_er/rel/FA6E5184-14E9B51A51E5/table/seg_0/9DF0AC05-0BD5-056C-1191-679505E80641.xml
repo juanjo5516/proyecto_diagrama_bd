@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DF0AC05-0BD5-056C-1191-679505E80641" name="detalle_ventas">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>D687BF3F-A48A-BD74-1D46-61E9938C7A01</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="828032A6-443F-3EA7-86E4-E096FE87F606">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>2D129BF1-E8CE-2363-E117-C1F67A814F39</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ventas_id" id="365D4EFB-9697-1BCA-3C9B-2D26F2717731">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>0DBBDF07-6411-25A9-3F64-3BDC2B8F0DB5</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="578BD990-358B-A1CA-7569-58383A41BF5F" referredColumn="5B5E80AB-EEC6-B44C-21F7-2CDE439926B4"/>
+</associations>
+</Column>
+<Column name="categorias_id" id="06E92F59-946E-A7F6-AACB-BBD3B3A34ADF">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>B4E1F9F1-75B3-36FC-450F-F2186EB2BD03</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9CDD164-20A4-CCA4-DDF4-9A14272A707E" referredColumn="EEAB95D2-5E26-BE10-642A-8029E3A785E3"/>
+</associations>
+</Column>
+<Column name="productos_id" id="44EDE25E-3546-48D1-7FD5-46D40722B671">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>B7AA0CFA-A2A2-D597-F9C8-A324C597B12C</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1639DFE-65CA-553C-C0CB-D82C3889BF56" referredColumn="E4A2E83C-0237-8FD1-D0A2-22DDBF575534"/>
+</associations>
+</Column>
+<Column name="created_at" id="4D6CF300-8F2F-3DC8-6892-173A405938B7">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>313F38E9-B8D0-48E7-0E3D-0FED8006C121</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="BDAA201D-B851-46B4-6B48-1C9058DCE1D9">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>FCEEC71E-534F-164C-9F8E-1E710DEC9F9E</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="DC5FFBDF-86BA-B31A-6C50-014655FB9B5A">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>E29A5726-8B26-34A0-94AD-456423A85C8D</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="351F9ED9-B2DA-E621-C7F9-9AAFD7C41CE8" name="detalle_ventas_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>377C4D58-083B-F11F-80B8-7625EF5F972F</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="828032A6-443F-3EA7-86E4-E096FE87F606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="103952EB-0519-4A1F-BD80-E4C82E5A6873" name="detalle_ventas_categorias_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>39D0ECF1-8E48-35B1-E108-65C843F3E6C8</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E92F59-946E-A7F6-AACB-BBD3B3A34ADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34EC2521-1842-1C51-4241-F754E01A96B9" name="detalle_ventas_productos_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>00B72FCB-7D8C-C9AC-8EF0-60EB602B65F9</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44EDE25E-3546-48D1-7FD5-46D40722B671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8B70A47-82B2-5015-CDF0-D271547CD6DF" name="detalle_ventas_ventas_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-27 21:58:36 UTC</createdTime>
+<generatorID>CA933616-8F69-E416-9F8B-B9303AD5805F</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="365D4EFB-9697-1BCA-3C9B-2D26F2717731"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

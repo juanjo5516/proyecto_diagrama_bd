@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="729A0B34-9DF7-6208-FE4B-9B353815F220" name="tipo_persona">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 01:20:41 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CFB28479-BFFF-B5DC-0E57-DE0075EFE6D3">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 01:21:17 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_persona" id="4F4B8299-54F0-6405-E075-3A69BDE51E3E">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 01:21:31 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F248538-817D-7914-0FE3-9238A89F42FD" name="tipo_persona_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 01:21:17 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB28479-BFFF-B5DC-0E57-DE0075EFE6D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

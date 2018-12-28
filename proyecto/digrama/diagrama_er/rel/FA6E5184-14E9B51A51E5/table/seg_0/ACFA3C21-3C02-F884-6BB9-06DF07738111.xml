@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACFA3C21-3C02-F884-6BB9-06DF07738111" name="paciente_signosvitales">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:51:25 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="593C7897-AC46-1F6F-09E2-630B9FE62525">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:52:05 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pacientes_id" id="3EFB7830-7F8D-C21F-97CD-70AD2E380255">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:52:22 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2696B4C-C35A-423C-9D3F-8A70B11DC33D" referredColumn="8C7F1F7B-E4AC-8D54-78F6-3DB7807CC710"/>
+</associations>
+</Column>
+<Column name="signos_vitales_id" id="D9D123D1-F799-F39E-9BB3-FE6CE25EC0DD">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:52:27 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A6F836-4CFA-6EDD-4297-6D488DA16E87" referredColumn="6C4E55EF-0525-18B6-1DCD-2858006CE39A"/>
+</associations>
+</Column>
+<Column name="fecha" id="52F58D91-1EE8-6599-BB7A-1D7AE77264DD">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:52:51 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="212007B1-4456-4EFF-0CEB-C2A075A4B366">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:53:11 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="24C310A2-C64F-2D3D-7DED-7EB6670546A6">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:53:23 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deleted_at" id="929C8DBA-3B44-16BA-8AE6-E46CBF5475BB">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:53:33 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4519F95B-27A2-8664-E818-7449A64BA720" name="paciente_signosvitales_PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:52:09 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="593C7897-AC46-1F6F-09E2-630B9FE62525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32D32B2E-11B3-2671-0427-5A56E098331A" name="paciente_signosvitales_pacientes_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:52:22 UTC</createdTime>
+<generatorID>E7E99924-59E8-0803-B1FC-DF29C2A8F4C3</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EFB7830-7F8D-C21F-97CD-70AD2E380255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6609C0F2-1320-EAFE-EA72-678697CE3E68" name="paciente_signosvitales_signos_vitales_FK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 04:52:27 UTC</createdTime>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9D123D1-F799-F39E-9BB3-FE6CE25EC0DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

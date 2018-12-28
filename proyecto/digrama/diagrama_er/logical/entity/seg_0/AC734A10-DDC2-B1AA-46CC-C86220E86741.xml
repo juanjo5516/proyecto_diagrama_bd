@@ -3,6 +3,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:13:56 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:29:12 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,80 +31,104 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:30:08 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="zona_id" id="2E0CED93-D058-43BF-D33D-989D58E907AB">
+<Attribute name="zonas id" id="2E0CED93-D058-43BF-D33D-989D58E907AB">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:33:45 UTC</createdTime>
 <generatorID>94362FC6-8B13-5403-EA52-B694100EE5A7</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>AD9D40A5-8F9F-94C8-6EA9-BDE08D0C5122</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="departamento_id" id="7218B31C-EE79-F6ED-F501-B881107AE83F">
+<Attribute name="departamentos id" id="7218B31C-EE79-F6ED-F501-B881107AE83F">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:35:11 UTC</createdTime>
 <generatorID>BF984A85-E2EA-77A2-5233-9150586733F8</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>3564AC32-75DB-33D7-508F-174CE59F615E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="municipio_id" id="34B3FC64-CDFF-E6DC-26D3-5D3F53C02322">
+<Attribute name="municipios id" id="34B3FC64-CDFF-E6DC-26D3-5D3F53C02322">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:35:25 UTC</createdTime>
 <generatorID>7F87F878-E41D-1E66-79AB-032A6D6BC5D0</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>6814EF76-311A-DD0E-A5A9-C3A132F0C898</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_at" id="E3D58C74-4D8B-EE63-86D1-C2573841D3D6">
+<Attribute name="created at" id="E3D58C74-4D8B-EE63-86D1-C2573841D3D6">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:35:59 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated_at" id="41869439-E729-8AA8-A6FC-EB534CAAAB2D">
+<Attribute name="updated at" id="41869439-E729-8AA8-A6FC-EB534CAAAB2D">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:36:12 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted_at" id="F7348F69-CC19-A343-F973-390D7680406B">
+<Attribute name="deleted at" id="F7348F69-CC19-A343-F973-390D7680406B">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:36:21 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="87EBB78D-508C-1FD3-8B46-7C49560275E6">
+<Attribute name="personas id" id="87EBB78D-508C-1FD3-8B46-7C49560275E6">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 02:01:07 UTC</createdTime>
 <generatorID>A2966C26-6FA5-202E-A662-CF0287717AB1</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>E53CDE98-DB8C-B168-870A-6BAFF378ACB2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -111,6 +141,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:29:25 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6E51A099-13AB-4247-A847-6EA96482E9EE</attributeRef>

@@ -3,6 +3,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,6 +44,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -45,6 +57,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,40 +67,52 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="persona_id" id="CE5FCE8F-BB55-8FD6-958B-7763594A563E">
+<Attribute name="persona id" id="CE5FCE8F-BB55-8FD6-958B-7763594A563E">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <generatorID>96D3C909-E25D-E9A4-8DB2-80509F057210</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_at" id="E8D9C9FE-925C-AD29-0B0E-FE606364E27C">
+<Attribute name="created at" id="E8D9C9FE-925C-AD29-0B0E-FE606364E27C">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated_at" id="1DBA2D27-0B1D-28EA-234F-3B78C4DE97EB">
+<Attribute name="updated at" id="1DBA2D27-0B1D-28EA-234F-3B78C4DE97EB">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted_at" id="7699A5C0-60CC-B4DD-F367-82C7CDA28EF7">
+<Attribute name="deleted at" id="7699A5C0-60CC-B4DD-F367-82C7CDA28EF7">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -94,10 +121,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C457FA77-0D8F-AEF8-6745-0816CCB293C5" name="proveedores PK">
+<identifier id="C457FA77-0D8F-AEF8-6745-0816CCB293C5" name="clientes_PK">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 01:55:22 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6BF5F6F7-BBEB-3704-1F13-BB91EF6BC550</attributeRef>

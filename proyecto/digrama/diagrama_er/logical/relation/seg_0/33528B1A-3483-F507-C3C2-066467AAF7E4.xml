@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="paciente_signosvitales_signos_vitales_FK" directorySegmentName="seg_0" id="33528B1A-3483-F507-C3C2-066467AAF7E4">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>91A6F836-4CFA-6EDD-4297-6D488DA16E87</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<sourcePk>C986D15C-36C3-6FEF-15AF-9C9CFE2540E4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B159ED38-1F56-8897-0E7D-0D745B23969F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7FB97BE-96ED-DC23-000F-265534D19EF9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

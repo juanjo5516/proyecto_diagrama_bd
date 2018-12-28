@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AC12945-181B-76A8-B3A4-C772D0E4891D" name="tipo persona">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>729A0B34-9DF7-6208-FE4B-9B353815F220</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6AB5CB51-7827-3E89-FA8C-D770940D0F58">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>CFB28479-BFFF-B5DC-0E57-DE0075EFE6D3</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo persona" id="13415B04-85E1-2858-61C2-9C03E1F4B4A1">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>4F4B8299-54F0-6405-E075-3A69BDE51E3E</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99418A31-1629-957E-E389-A2BCAA6D0969" name="tipo persona PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>7F248538-817D-7914-0FE3-9238A89F42FD</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AB5CB51-7827-3E89-FA8C-D770940D0F58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

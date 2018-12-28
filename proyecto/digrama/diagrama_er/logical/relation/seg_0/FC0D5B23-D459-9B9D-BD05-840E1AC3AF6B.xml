@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pacientes aseguradoras FK" directorySegmentName="seg_0" id="1658FB38-F93C-3545-78A3-BDFEF1BD196D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="medicos_sedes_FK" directorySegmentName="seg_0" id="FC0D5B23-D459-9B9D-BD05-840E1AC3AF6B">
 <createdBy>user</createdBy>
-<createdTime>2018-12-27 20:59:10 UTC</createdTime>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>FBA58DD7-4B32-C647-CB87-B6EE67130A39</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
-<sourcePk>343D3886-F183-ECF0-62C1-AE5D662C02B2</sourcePk>
+<sourcePk>4D07277A-8985-5917-0E2C-C90191C3FFB2</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>118D4575-48F0-40C1-8006-56CDA7070B20</sourceEntity>
+<sourceEntity>C7BB208B-4F84-8C24-293F-A68C9CC1BA65</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>39DFBF15-AB90-26CA-D5EA-05F688E3AAA7</targetEntity>
+<targetEntity>1DEC2BB4-ED70-CB34-6557-00E71B3B1848</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

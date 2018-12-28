@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_deptos_puestos" directorySegmentName="seg_0" id="888B8316-7259-31B6-CDB2-C76879290953">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="puestos deptos FK" directorySegmentName="seg_0" id="888B8316-7259-31B6-CDB2-C76879290953">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:05:54 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <sourcePk>941FE65F-0C08-1FD5-C4EB-5239FFDEAA16</sourcePk>
 <identifying>false</identifying>

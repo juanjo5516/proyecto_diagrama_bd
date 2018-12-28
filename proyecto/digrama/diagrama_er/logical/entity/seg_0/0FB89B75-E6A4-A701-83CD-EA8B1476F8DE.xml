@@ -4,7 +4,7 @@
 <createdTime>2018-11-25 00:00:54 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2018-11-25 00:01:00 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2018-11-25 00:01:13 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,13 +40,13 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="depto_id" id="3BAD9922-AE9D-0055-8525-AF6938D9FF55">
+<Attribute name="deptos id" id="3BAD9922-AE9D-0055-8525-AF6938D9FF55">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:05:54 UTC</createdTime>
 <generatorID>888B8316-7259-31B6-CDB2-C76879290953</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <referedAttribute>C72271FC-1542-2409-EE4D-13C24EC035E0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,12 +54,12 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_at" id="6E8B26A6-6110-9C1B-A0B7-BD92F90931E9">
+<Attribute name="created at" id="6E8B26A6-6110-9C1B-A0B7-BD92F90931E9">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:01:35 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,12 +67,12 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated_at" id="9AC3A7F0-6A8F-FCE9-6ABA-43349C02324F">
+<Attribute name="updated at" id="9AC3A7F0-6A8F-FCE9-6ABA-43349C02324F">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:01:48 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,12 +80,12 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted_at" id="91DCF3EB-C55B-0B09-0200-876698A50A3A">
+<Attribute name="deleted at" id="91DCF3EB-C55B-0B09-0200-876698A50A3A">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:02:00 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -100,7 +100,7 @@
 <createdTime>2018-11-25 00:01:11 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

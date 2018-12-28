@@ -4,7 +4,7 @@
 <createdTime>2018-11-25 00:20:12 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2018-11-25 00:20:18 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2018-11-25 00:20:28 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +40,12 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_at" id="4E56ADF2-6A5F-F8A9-8F84-E20BFE63D5C5">
+<Attribute name="created at" id="4E56ADF2-6A5F-F8A9-8F84-E20BFE63D5C5">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:20:49 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,12 +53,12 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated_at" id="4A9D9758-C1D4-65C6-F3C6-D3AB572DBD8A">
+<Attribute name="updated at" id="4A9D9758-C1D4-65C6-F3C6-D3AB572DBD8A">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:21:00 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,12 +66,12 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted_at" id="CE32E589-4B95-B2A0-6170-F92B55E3D5B6">
+<Attribute name="deleted at" id="CE32E589-4B95-B2A0-6170-F92B55E3D5B6">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:21:17 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,7 +86,7 @@
 <createdTime>2018-11-25 00:20:26 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

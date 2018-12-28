@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_empleados_jefe" directorySegmentName="seg_0" id="10F9AD41-E44D-3E83-ABF4-89E57C8888ED">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="empleados empleados FK" directorySegmentName="seg_0" id="10F9AD41-E44D-3E83-ABF4-89E57C8888ED">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:09:37 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
-<item key="A101D720-A4A5-FB8C-5D0E-4C02F817C631" value="true"/>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <targetPk>7EC2BF76-3300-6E47-9CBB-4283D0BA5695</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>FE74F918-966C-F53D-D429-84A1D41C5106</sourceEntity>

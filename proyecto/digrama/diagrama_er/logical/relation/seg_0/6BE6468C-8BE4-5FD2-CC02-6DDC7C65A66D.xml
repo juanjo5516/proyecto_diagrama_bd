@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="residencias personas FK" directorySegmentName="seg_0" id="A2966C26-6FA5-202E-A662-CF0287717AB1">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 02:23:33 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="medicos_personas_FK" directorySegmentName="seg_0" id="6BE6468C-8BE4-5FD2-CC02-6DDC7C65A66D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>BCFB2B8B-E25B-94D3-D4CF-263E7C17F694</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -13,7 +14,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>461F0322-7807-6F66-8625-E0B948407DBB</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>AC734A10-DDC2-B1AA-46CC-C86220E86741</targetEntity>
+<targetEntity>1DEC2BB4-ED70-CB34-6557-00E71B3B1848</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

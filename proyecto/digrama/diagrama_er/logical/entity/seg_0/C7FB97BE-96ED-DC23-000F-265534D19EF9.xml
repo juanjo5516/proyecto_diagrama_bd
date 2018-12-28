@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95F3194A-BE17-0B3A-7CAD-83E615C49A40" name="municipios">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:26:49 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7FB97BE-96ED-DC23-000F-265534D19EF9" name="paciente signosvitales">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>ACFA3C21-3C02-F884-6BB9-06DF07738111</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="6814EF76-311A-DD0E-A5A9-C3A132F0C898">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:26:55 UTC</createdTime>
+<Attribute name="id" id="B7B469A0-C040-4612-5EFA-E8CEF7F1D4E7">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>593C7897-AC46-1F6F-09E2-630B9FE62525</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -27,36 +29,38 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="municipio" id="BBA179AC-260F-7E67-4BFB-120D88BC5B0D">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:27:06 UTC</createdTime>
+<Attribute name="pacientes id" id="32776457-EFED-E3F4-BBA0-A02B757E5739">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>59510C22-1E98-631E-C224-95FC8B4305CF</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="departamentos id" id="21AA7972-272E-06DF-81F8-44BA715101FF">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:28:10 UTC</createdTime>
-<generatorID>6D340CB7-4BDA-D0EE-DCC6-1589C503A74B</generatorID>
-<ownerDesignName>diagrama_er</ownerDesignName>
-<engineerTo>
-<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
-</engineerTo>
-<referedAttribute>3564AC32-75DB-33D7-508F-174CE59F615E</referedAttribute>
+<referedAttribute>AADCDC7C-8E04-6110-D66B-D9C58CF44DBF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created at" id="8B0A5F7E-A65F-1C6F-1324-4DE940FC063A">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:27:22 UTC</createdTime>
+<Attribute name="signos vitales id" id="DA9DA3A8-6552-1D0E-D90B-4288F94FCB5D">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>33528B1A-3483-F507-C3C2-066467AAF7E4</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<referedAttribute>31F347F3-AD9B-ED05-178F-6D571CAD19F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="8BB6F1F4-5658-ECD8-6257-D900E81B3523">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>52F58D91-1EE8-6599-BB7A-1D7AE77264DD</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -67,9 +71,10 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated at" id="1966D7B9-C658-2A84-5493-B9F1F93BD115">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:27:33 UTC</createdTime>
+<Attribute name="created at" id="0168B2A0-1E4C-99FE-2797-7AEA681C6707">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>212007B1-4456-4EFF-0CEB-C2A075A4B366</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -80,9 +85,24 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted at" id="3DC57D0A-21E5-8B32-3D03-8DD0DF6DE8CE">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:27:41 UTC</createdTime>
+<Attribute name="updated at" id="82BF7B04-84AB-0EFD-CC5B-E58AB4EF8F40">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>24C310A2-C64F-2D3D-7DED-7EB6670546A6</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deleted at" id="125566F7-EE10-8417-CD77-D8B597B93FD3">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>929C8DBA-3B44-16BA-8AE6-E46CBF5475BB</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -95,16 +115,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CD0AE8A2-0C47-E633-6563-78DA6ADCA351" name="municipios PK">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-25 00:27:04 UTC</createdTime>
+<identifier id="431CC0D7-7A9F-F17E-9B9A-284B54D79C72" name="paciente signosvitales PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>4519F95B-27A2-8664-E818-7449A64BA720</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6814EF76-311A-DD0E-A5A9-C3A132F0C898</attributeRef>
+<attributeRef>B7B469A0-C040-4612-5EFA-E8CEF7F1D4E7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

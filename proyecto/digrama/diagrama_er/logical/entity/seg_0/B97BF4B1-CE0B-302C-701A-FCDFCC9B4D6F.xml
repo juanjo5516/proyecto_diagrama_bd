@@ -3,6 +3,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:25:57 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,15 +19,21 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:33:07 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="serie_factura" id="B0066B23-EDE9-5332-085E-333FC10F08AE">
+<Attribute name="serie factura" id="B0066B23-EDE9-5332-085E-333FC10F08AE">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:33:41 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,20 +41,26 @@
 <dataTypeSize>45</dataTypeSize>
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero_factura" id="DDCEE094-247A-D5C2-AFFB-1CA97CA66DEA">
+<Attribute name="numero factura" id="DDCEE094-247A-D5C2-AFFB-1CA97CA66DEA">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:33:19 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>45</dataTypeSize>
 <ownDataTypeParameters>45,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_factura" id="991629F7-9741-09C1-0BC0-6A3DB14C2539">
+<Attribute name="fecha factura" id="991629F7-9741-09C1-0BC0-6A3DB14C2539">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:33:34 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -55,6 +70,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:34:09 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT020</logicalDatatype>
@@ -62,52 +80,67 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="proveedor_id" id="CE4C1DE0-00EC-83D8-D3D0-4A181EB9A91F">
+<Attribute name="proveedores id" id="CE4C1DE0-00EC-83D8-D3D0-4A181EB9A91F">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:36:49 UTC</createdTime>
 <generatorID>3DBB80BC-F6AF-44FD-4A2E-514EA969D46B</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>4971DD79-C821-CF78-616F-00783A1D6046</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="forma_pago_id" id="58F11256-916F-B1B5-9E4D-C92330D9D6B2">
+<Attribute name="forma pagos id" id="58F11256-916F-B1B5-9E4D-C92330D9D6B2">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:38:37 UTC</createdTime>
 <generatorID>CFB94643-206C-7922-89E8-D2CC0EE1E69F</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>A426384F-AB90-1003-1A69-0E69FB5064BD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_At" id="D91DB033-98EE-8CB7-8033-90FAA35D5FD8">
+<Attribute name="created At" id="D91DB033-98EE-8CB7-8033-90FAA35D5FD8">
 <createdBy>user</createdBy>
 <createdTime>2018-12-27 21:43:58 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated_at" id="56867A63-2F70-BB37-D57A-8248A532D9E6">
+<Attribute name="updated at" id="56867A63-2F70-BB37-D57A-8248A532D9E6">
 <createdBy>user</createdBy>
 <createdTime>2018-12-27 21:44:09 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted_at" id="A46FA3AC-7E31-1547-6FD5-4D9F59401BBC">
+<Attribute name="deleted at" id="A46FA3AC-7E31-1547-6FD5-4D9F59401BBC">
 <createdBy>user</createdBy>
 <createdTime>2018-12-27 21:44:32 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -120,6 +153,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:33:18 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>55E41957-FD0B-7BDE-5403-4EA830E71B60</attributeRef>

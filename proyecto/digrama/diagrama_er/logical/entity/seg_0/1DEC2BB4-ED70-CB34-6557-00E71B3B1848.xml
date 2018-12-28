@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEB2307E-15BF-DEFB-C89F-E394C07D78DB" name="ventas">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DEC2BB4-ED70-CB34-6557-00E71B3B1848" name="medicos">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>CC6A2887-2FBB-5CA7-79D6-A8DCD88E1F34</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7CF25F4C-F96B-8AC6-7660-2AF1352F8FCE">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<Attribute name="id" id="DB6E1CEA-B88D-E6F1-B4DF-FFF9C8D8FF31">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>AA74707F-C5F6-175C-C381-248468F13209</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -27,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="serie factura" id="3301BDD8-9E51-82A1-0936-719FF8491FAF">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<Attribute name="especialidad" id="E3A42B40-6638-81AA-EAA6-1F411199319F">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>BF40D34C-22D0-DC03-3983-B37AF96A3144</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -38,79 +41,83 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>45</dataTypeSize>
-<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="numero factura" id="EF21F59B-1BA9-2FBB-F320-097C1BFD495E">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<Attribute name="created at" id="B636D8A8-5061-F64D-0BE1-BE02F8D37818">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>9E648ED1-B863-AF41-C856-BDDC5C45E6BC</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>45</dataTypeSize>
-<ownDataTypeParameters>45,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha factura" id="F6D8CBD3-F8C0-74AE-3D8F-3BD507FE0CEE">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:49:02 UTC</createdTime>
-<ownerDesignName>diagrama_er</ownerDesignName>
-<engineerTo>
-<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="total" id="C00E8F2C-3B5F-DC18-A362-BEAB8E7D34D9">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<Attribute name="updated at" id="288D8CF1-FFCF-B7EC-D1B0-986A03A6C3EF">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>FC2F6C51-58CE-2CD6-DF13-8C4A917122D1</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="clientes id" id="BFE3A531-D711-040D-5AB2-E2FC78BA03DF">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 05:01:52 UTC</createdTime>
-<generatorID>BE5F5A05-B76A-8867-4B51-576B2EFA8EB2</generatorID>
+<Attribute name="deleted at" id="2C1B760A-3183-9020-729C-D9F1B45505D9">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>0C90F643-6629-80B6-09DB-3CFAB62C4510</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
-<referedAttribute>6BF5F6F7-BBEB-3704-1F13-BB91EF6BC550</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="personas id" id="53F48476-BD73-4852-EC84-A3CD467F5D2F">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>6BE6468C-8BE4-5FD2-CC02-6DDC7C65A66D</generatorID>
+<ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
+<referedAttribute>E53CDE98-DB8C-B168-870A-6BAFF378ACB2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="forma pagos id" id="DD6E013E-28E0-1245-D96F-1C611995EFD5">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:54:53 UTC</createdTime>
-<generatorID>12B61F5E-67BF-EE2B-366F-86895E0EB2B6</generatorID>
+<Attribute name="salario" id="05C56D37-E5AA-2D22-62D8-1216B968ED56">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>F92CE543-6E15-C420-4E0A-1FDC94D076D2</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
-<referedAttribute>A426384F-AB90-1003-1A69-0E69FB5064BD</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created at" id="8790DCA3-76DA-71DF-EEE7-EA34BE77C6E2">
+<Attribute name="fecha ingreso" id="3A6AE3BC-766B-5E7F-AACC-048F9D3EFC4B">
 <createdBy>user</createdBy>
-<createdTime>2018-12-27 21:47:14 UTC</createdTime>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>464558F6-4F07-F57E-6FB1-457FA5E389C2</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
@@ -121,44 +128,33 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted at" id="1223C3E1-9DB9-DC15-3955-F8F96C7ED7F7">
+<Attribute name="sedes id" id="ABD78243-AF83-7C6C-E2E5-C997CC6CAC23">
 <createdBy>user</createdBy>
-<createdTime>2018-12-27 21:49:18 UTC</createdTime>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>FC0D5B23-D459-9B9D-BD05-840E1AC3AF6B</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B27761F6-26A1-ACA9-5237-67E70D6A68B9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="updated at" id="D3FB9BD0-4000-A083-55EC-344F0334EBC0">
-<createdBy>user</createdBy>
-<createdTime>2018-12-27 21:50:09 UTC</createdTime>
-<ownerDesignName>diagrama_er</ownerDesignName>
-<engineerTo>
-<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="687429CD-90C5-B266-0A40-3065139EA873" name="ventas_PK">
-<createdBy>dhernandez</createdBy>
-<createdTime>2018-11-28 04:49:02 UTC</createdTime>
+<identifier id="0FBE883F-F5F2-27D0-A55C-E54A3B2CF7FB" name="medicos PK">
+<createdBy>user</createdBy>
+<createdTime>2018-12-28 05:01:33 UTC</createdTime>
+<generatorID>926A1F22-69B6-7CEC-E7A7-2380A51F77A0</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
 <engineerTo>
 <item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7CF25F4C-F96B-8AC6-7660-2AF1352F8FCE</attributeRef>
+<attributeRef>DB6E1CEA-B88D-E6F1-B4DF-FFF9C8D8FF31</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

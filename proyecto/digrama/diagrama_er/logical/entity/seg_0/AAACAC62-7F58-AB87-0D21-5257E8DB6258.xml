@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAACAC62-7F58-AB87-0D21-5257E8DB6258" name="detalle_compras">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAACAC62-7F58-AB87-0D21-5257E8DB6258" name="detalle compras">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:27:41 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,68 +19,89 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:55:36 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="compra_id" id="F32385D8-7077-E216-771B-FEAF852E1C0F">
+<Attribute name="compras id" id="F32385D8-7077-E216-771B-FEAF852E1C0F">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:44:20 UTC</createdTime>
 <generatorID>75F40AC8-E66F-2ED3-C90A-F30519C05458</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>55E41957-FD0B-7BDE-5403-4EA830E71B60</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="categoria_id" id="B8ABAD50-49EB-1671-2A3E-8E9CFD21E354">
+<Attribute name="categorias id" id="B8ABAD50-49EB-1671-2A3E-8E9CFD21E354">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:45:10 UTC</createdTime>
 <generatorID>1601212F-D82E-04A3-B812-B616859A8A11</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>DB86A50E-EB7B-335D-3DAE-3C733E737E12</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="producto_id" id="5E5D3E47-041E-D163-A1AA-C27ED8B3EA56">
+<Attribute name="productos id" id="5E5D3E47-041E-D163-A1AA-C27ED8B3EA56">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:45:25 UTC</createdTime>
 <generatorID>87244887-2FC9-F2A4-43D6-B8E0A15722A2</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>536F6F84-5BB6-7B84-254A-E3B99CA6B7B7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_at" id="F7A2693B-1FD3-3389-88F1-0ABE04078031">
+<Attribute name="created at" id="F7A2693B-1FD3-3389-88F1-0ABE04078031">
 <createdBy>user</createdBy>
 <createdTime>2018-12-27 21:44:52 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated_at" id="8A1997DF-3BB5-CCA2-0A5F-313B39BFA59D">
+<Attribute name="updated at" id="8A1997DF-3BB5-CCA2-0A5F-313B39BFA59D">
 <createdBy>user</createdBy>
 <createdTime>2018-12-27 21:45:04 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted_at" id="A1129CA1-3A23-1864-B3C0-A7CC911E2543">
+<Attribute name="deleted at" id="A1129CA1-3A23-1864-B3C0-A7CC911E2543">
 <createdBy>user</createdBy>
 <createdTime>2018-12-27 21:45:17 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -86,10 +110,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D4550691-13E0-1BF9-F1CA-66266757CA7A" name="detalle_compras PK">
+<identifier id="D4550691-13E0-1BF9-F1CA-66266757CA7A" name="detalle_compras_PK">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:55:51 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>51529B65-73B7-5744-81DB-A0C7BF46845C</attributeRef>

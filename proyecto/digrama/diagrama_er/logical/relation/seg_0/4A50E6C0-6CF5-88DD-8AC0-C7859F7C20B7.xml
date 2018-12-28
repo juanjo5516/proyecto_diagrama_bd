@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_cuenta_por_pagar_proveedores" directorySegmentName="seg_0" id="4A50E6C0-6CF5-88DD-8AC0-C7859F7C20B7">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cuenta por pagar proveedores FK" directorySegmentName="seg_0" id="4A50E6C0-6CF5-88DD-8AC0-C7859F7C20B7">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:47:50 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <sourcePk>C8C2DC27-9027-F202-D838-EAAD8374C223</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

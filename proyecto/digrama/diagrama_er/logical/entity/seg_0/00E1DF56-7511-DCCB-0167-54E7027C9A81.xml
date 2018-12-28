@@ -3,6 +3,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:13:48 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:21:31 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,58 +31,76 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:22:02 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="medio_id" id="D3E9C1F7-C075-8615-3815-F7E3D54D4B72">
+<Attribute name="medios id" id="D3E9C1F7-C075-8615-3815-F7E3D54D4B72">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:23:35 UTC</createdTime>
 <generatorID>6103A6C1-BF11-DFFE-7618-6809F9E9131B</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>13E1D0CE-41C0-208D-3D64-9169585F1F5D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_at" id="B65DC599-EC61-F306-5769-1758D228A79B">
+<Attribute name="created at" id="B65DC599-EC61-F306-5769-1758D228A79B">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:23:52 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="updated_at" id="27632442-1509-93EF-94F6-47120DED96E3">
+<Attribute name="updated at" id="27632442-1509-93EF-94F6-47120DED96E3">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:24:03 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="deleted_at" id="B34ADDD4-D04C-CD06-C4D1-062EBBA46312">
+<Attribute name="deleted at" id="B34ADDD4-D04C-CD06-C4D1-062EBBA46312">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:24:15 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="26F37B00-1AE5-B1D4-4843-9E601C9D14E1">
+<Attribute name="personas id" id="26F37B00-1AE5-B1D4-4843-9E601C9D14E1">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 02:00:08 UTC</createdTime>
 <generatorID>4C323EA7-EF1C-DB9B-95DC-56077B2D89E2</generatorID>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <referedAttribute>E53CDE98-DB8C-B168-870A-6BAFF378ACB2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,6 +113,9 @@
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-25 00:21:44 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E537CCED-7675-F971-76D2-3CA9BCB42D53</attributeRef>

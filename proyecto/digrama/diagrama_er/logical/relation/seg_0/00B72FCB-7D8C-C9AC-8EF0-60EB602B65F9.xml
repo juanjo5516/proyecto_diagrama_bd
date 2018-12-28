@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_detalle_ventas_productos" directorySegmentName="seg_0" id="00B72FCB-7D8C-C9AC-8EF0-60EB602B65F9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="detalle ventas productos FK" directorySegmentName="seg_0" id="00B72FCB-7D8C-C9AC-8EF0-60EB602B65F9">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 05:01:12 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <sourcePk>C3DF7F1D-E2FF-26CF-4231-EFC79F5D5444</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

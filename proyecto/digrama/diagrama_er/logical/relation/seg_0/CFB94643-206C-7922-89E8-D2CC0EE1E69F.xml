@@ -1,8 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_compras_forma_pagos" directorySegmentName="seg_0" id="CFB94643-206C-7922-89E8-D2CC0EE1E69F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="compras forma pagos FK" directorySegmentName="seg_0" id="CFB94643-206C-7922-89E8-D2CC0EE1E69F">
 <createdBy>dhernandez</createdBy>
 <createdTime>2018-11-28 04:38:37 UTC</createdTime>
 <ownerDesignName>diagrama_er</ownerDesignName>
+<engineerTo>
+<item key="FA6E5184-AF63-2A1B-079D-14E9B51A51E5" value="true"/>
+</engineerTo>
 <sourcePk>FB6DE323-6CAD-BBFD-18E6-8CEA71ADE0A8</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
